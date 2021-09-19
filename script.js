@@ -10,3 +10,7 @@ function darkMode(){
     }
     button.classList.toggle("button-dark");
 }
+
+function unReady(){
+    return window.alert('Website masih dalam proses development')
+}
