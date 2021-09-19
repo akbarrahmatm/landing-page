@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 30%;
+    margin: 130px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow:
+    0 0.3px 2.5px rgba(0, 0, 0, 0.045),
+    0 0.7px 5.9px rgba(0, 0, 0, 0.065),
+    0 1.4px 11.1px rgba(0, 0, 0, 0.08),
+    0 2.5px 19.9px rgba(0, 0, 0, 0.095),
+    0 4.6px 37.2px rgba(0, 0, 0, 0.115),
+    0 11px 89px rgba(0, 0, 0, 0.16)
+    ;
+}
+.container .link{
+    margin-top: 5px;
+}
+.container .link ul li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.container .link ul li a{
+    color: black;
+}
+span.bold{
+    font-weight: bold;
+}
+.container-dark-mode{
+    background-color: #2d3436;
+    color: white;
+}
+
+.container-dark-mode .link ul li a{
+    color: white;
+}
+
+.button{
+    padding: 5px 20px;
+    margin: 10px 20px;
+    background-color: #2d3436;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:
+    0 0.3px 2.5px rgba(0, 0, 0, 0.045),
+    0 0.7px 5.9px rgba(0, 0, 0, 0.065),
+    0 1.4px 11.1px rgba(0, 0, 0, 0.08),
+    0 2.5px 19.9px rgba(0, 0, 0, 0.095),
+    0 4.6px 37.2px rgba(0, 0, 0, 0.115),
+    0 11px 89px rgba(0, 0, 0, 0.16)
+    ;
+}
+.button-dark{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        width: 70%;
+        margin: 170px auto;
+    }
+}
